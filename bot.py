@@ -39,7 +39,7 @@ def get_tiktok_video(update: Update, context: CallbackContext) -> None:
 
 # إعداد التوكن الخاص بالبوت
 def main():
-    token = 'PUT_YOUR_BOT_API_KEY_HERE'  # استبدل بهذا التوكن الخاص بك
+    token = '998371661:AAEfGr2Ib7SDdX2D_fx-DtyHDpy1P93fsX8'  # استبدل بهذا التوكن الخاص بك
     updater = Updater(token, use_context=True)
     dispatcher = updater.dispatcher
 
